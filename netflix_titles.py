@@ -1,7 +1,7 @@
 import pandas as pd
 import openpyxl
 
-excel = pd.read_excel(r"C:\Users\anaju\OneDrive\Documentos\netflix_titles.xlsx", header = 1)
+excel = pd.read_excel(r"your\directory\path\netflix_titles.xlsx", header = 1)
 df = pd.DataFrame(excel)
 
 #Exibindo o DataFrame
